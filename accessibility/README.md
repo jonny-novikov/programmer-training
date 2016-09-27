@@ -1,6 +1,4 @@
-# Accessibility & usability
-
-These will mostly involve familiarization with techniques, making checklists we can use when designing and building applications, and then going through the checklists during and after the design and development process to make sure we did it right. Practice makes permanent!
+# Accessibility & Usability
 
 ## [Accessibility to persons with disabilities](https://www.w3.org/WAI/intro/accessibility.php)
 
