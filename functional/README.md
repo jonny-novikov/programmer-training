@@ -1,8 +1,8 @@
 # Functional programming
 
-While a lot of this will be review, we need to go in depth on how these ideas are expressed in JavaScript. You will know this stuff inside-out and outside-in by the time we are finished.
+While a lot of this will be actually be review (It won't feel like it looking at the crazy list/names), we need to go in depth on how these ideas are expressed in JavaScript. You will know this stuff inside-out and outside-in by the time we are finished.
 
-## Paradigms
+## Programming Paradigms
 
 - [Imperative:](https://en.wikipedia.org/wiki/Imperative_programming)
 Paradigm of programming that uses explicit commands and statements to define the sequence in which a program should be run. 
@@ -38,10 +38,10 @@ We'll be using the [Ramda](http://ramdajs.com/0.21.0/index.html) library to prac
 - [drop](http://ramdajs.com/0.19.1/docs/#drop) 
 - [filter](http://ramdajs.com/0.19.1/docs/#filter) 
 - [find](http://ramdajs.com/0.19.1/docs/#find) 
-- [flatten](http://ramdajs.com/0.19.1/docs/#flatten
+- [flatten](http://ramdajs.com/0.19.1/docs/#flatten)
 - [head](http://ramdajs.com/0.19.1/docs/#head) 
 - [lens](http://ramdajs.com/0.19.1/docs/#lens) 
-- [lift](http://ramdajs.com/0.19.1/docs/#lift
+- [lift](http://ramdajs.com/0.19.1/docs/#lift)
 - [map](http://ramdajs.com/0.19.1/docs/#map) 
 - [memoize](http://ramdajs.com/0.19.1/docs/#memoize) 
 - [merge](http://ramdajs.com/0.19.1/docs/#merge) 

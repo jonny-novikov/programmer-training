@@ -1,5 +1,7 @@
 # Thinking through functions
 
+When you first start creating functions it can be really challenging. We know what we want to do but we haven't learnt the skills to be able to think through how. To be able to create function  
+
 ## Before writing the function
 
 * What are we trying to achieve?
@@ -37,4 +39,4 @@
 * Rubber Ducky to yourself, an inanimate object or a person
 * Pseudo code the steps. Think through the steps slowly. Console.log() each step. Are you getting what you expect?
 * Check the ramda docs - does your function work the same way as the ramda one?
-* Check against the ramda function - do you get the same outputs with the same inputs as the function you've made?  
+* Check against the ramda function - do you get the same outputs with the same inputs as the function you've made? 

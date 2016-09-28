@@ -10,7 +10,7 @@
 Some of the information that we are cover we won't become experts in but we will learn so that we can discuss try until you can talk knowledgeably about them and work with them if necessary. 
 - Knowing where to look for more information so you can review the concepts as needed is key.
 
-** These goals are: **
+**These goals are:**
 
 1. Learn the most up to date tools, techniques and best practices available.
 2. Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
@@ -41,3 +41,13 @@ Some of the information that we are cover we won't become experts in but we will
 - This is a working document which means it will change as we work on each goal.
 - We will add more resources as we need or find them.
 - If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
+
+## What makes a great programmer? 
+
+What makes a great programmer? The ability to manage complexity. 
+
+1. You are going to over think absolutely everything. 
+2. It's easier then it seems. It will seem harder and more complicated first, you'll hurt getting up some learning curves but eventually you'll weed through the complexity to the simple parts that create that complicated mess.
+3. Practice makes perfect. Practice creates second nature understanding. Practice 
+4. Don't over do it. At a certain point pushing yourself means creating bad habits.  
+5. Break all the things! You'll create a deeper understanding of how ad why things work the way they do. 
