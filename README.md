@@ -52,4 +52,4 @@ What makes a great programmer? The ability to *manage complexity*. Before we bec
 4. Break all the things! You'll create a deeper understanding of how ad why things work the way they do. 
 5. Don't over do it. At a certain point pushing yourself means creating bad habits and inefficient learning. Take breaks. Don't work more then 6 hours in one consectutive sitting. Go have fun too :) 
 
-You're not stupid. You can do this. Go be amazing!
+You are not stupid. You can do this. You're already amazing. Go be awesome you!
