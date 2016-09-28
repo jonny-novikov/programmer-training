@@ -18,7 +18,7 @@ Some of the information that we are cover we won't become experts in but we will
 
 ## Steps to achieve our goals
 
-1. Review: Begin a thorough review, discovering where the holes and weaknesses in your knowledge are.
+1. Review: Begin a thorough review, discovering where the holes and weaknesses are your knowledge.
 2. Foundation building: Work on building your conceptual foundations while practicing using the most up to date JavaScript methods available. 
 3. Portfolio building: Build up your portfolio with real world examples: During this time - if you can find a small contract to do, you will be able to practice, get real world experience and earn extra income.
 4. Git / Work flow: What is work flow? What are the best practices for using git?
@@ -44,10 +44,12 @@ Some of the information that we are cover we won't become experts in but we will
 
 ## What makes a great programmer? 
 
-What makes a great programmer? The ability to manage complexity. 
+What makes a great programmer? The ability to *manage complexity*. Before we become amazing at doing that here are a few tips for when learning's a bit tough. 
 
-1. You are going to over think absolutely everything. 
+1. You are going to over think absolutely everything. Understanding comes slowly - so don't be too hard on yourself.
 2. It's easier then it seems. It will seem harder and more complicated first, you'll hurt getting up some learning curves but eventually you'll weed through the complexity to the simple parts that create that complicated mess.
-3. Practice makes perfect. Practice creates second nature understanding. Practice 
-4. Don't over do it. At a certain point pushing yourself means creating bad habits.  
-5. Break all the things! You'll create a deeper understanding of how ad why things work the way they do. 
+3. Practice makes perfect. Practice creates second nature understanding. Practice, practice, practice!
+4. Break all the things! You'll create a deeper understanding of how ad why things work the way they do. 
+5. Don't over do it. At a certain point pushing yourself means creating bad habits and inefficient learning. Take breaks. Don't work more then 6 hours in one consectutive sitting. Go have fun too :) 
+
+You're not stupid. You can do this. Go be amazing!
