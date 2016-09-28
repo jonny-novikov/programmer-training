@@ -6,9 +6,7 @@
 
 ## What you need to know well enough to fake it
 
-We won't become expert on any of these, but we can discuss them and try a few until you can talk knowledgeably about them and work with them. Knowing where to look for more information so you can review the concepts as needed is key.
-
-That said, we'll definitley need to do plenty of TDD and BDD and you'll need to understand the difference and the pros and cons of each. You should be very comfortable writing tests and understanding what to test and what not to test. This is something I need to improve as well, so we can help each other.
+That said, we'll do plenty of TDD and you'll need to understand the difference and the pros and cons of each. You should be very comfortable writing tests and understanding what to test and what not to test. 
 
 - Models (basic familiarity)
     - [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model)
