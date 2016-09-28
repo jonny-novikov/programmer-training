@@ -1,10 +1,8 @@
 # The art of software development
 
-Read the [Agile Manifesto](http://agilemanifesto.org/).
-
-But do you know about the [Gartner Hype Cycle](http://www.gartner.com/technology/research/methodologies/hype-cycle.jsp)?
-
-Now read the [Dark Agile Manifesto](http://darkagilemanifesto.org/). What do you think?
+- [ ] [Agile Manifesto](http://agilemanifesto.org/)
+- [ ] [Gartner Hype Cycle](http://www.gartner.com/technology/research/methodologies/hype-cycle.jsp)
+- [ ] [Dark Agile Manifesto](http://darkagilemanifesto.org/)
 
 ## What you need to know well enough to fake it
 
@@ -27,7 +25,7 @@ That said, we'll definitley need to do plenty of TDD and BDD and you'll need to 
         - Release burn-down chart
         - Product Backlog (PBL) list
         - Sprint Backlog (SBL) list
-        9 Sprint
+        - 9 Sprint
         - Spike
         - Tracer bullet
         - Tasks

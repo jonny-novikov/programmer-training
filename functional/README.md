@@ -10,7 +10,7 @@ While a lot of this will be review, we need to go in depth on how these ideas ar
 - [Prototype-based programming](https://en.wikipedia.org/wiki/Prototype-based_programming)
 
 ## Functional concepts
-
+ 
 - Immutability
 - Referential transparencey and the substitution principle
 - Pure functions

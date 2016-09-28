@@ -1,7 +1,5 @@
 # Web site and application design proces
 
-This should be mostly review for you (whew!). The rest are advanced topics we can chat about when we're tired of programming. The more you know about these topics, the better prepared you'll be for both future developments in the Web and job interviews. Also we can talk about an idea I have for a company called **formbender** that uses SW concepts.
-
 - [Information Architecture](https://en.wikipedia.org/wiki/Information_architecture) (IA)
     - **Note:** While the definition of information architecture is relatively well-established in the field of systems design, it is much more debatable within the context of online information systems (i.e., websites). Andrew Dillon refers to the latter as the "big IA-little IA debate". In the little IA view, information architecture is essentially the application of information science to web design which considers, for example, issues of classification and information retrieval. In the big IA view, information architecture involves more than just the organization of a website; it also factors in user experience, thereby considering usability issues of information design.
     - [Five Elements of User Experience](http://www.jjg.net/elements/pdf/elements_ch02.pdf)
