@@ -3,18 +3,18 @@
 ## How to become a world-class programmer
 
 - All our training will be designed and customized to your learning, with specific goals in mind. 
-- our learning will be mostly be split into two different categories: 
-    - Foundational knowledge - complemented by practical coding skills
-    - Conceptual knowledge - that will give context
+- Our learning will be mostly be split into two different categories: 
+    - Foundational knowledge - complemented by practical coding skills.
+    - Conceptual knowledge - that will give context and create understanding of the patterns that reoccur in programming.
 
 Some of the information that we are cover we won't become experts in but we will learn so that we can discuss try until you can talk knowledgeably about them and work with them if necessary. 
 - Knowing where to look for more information so you can review the concepts as needed is key.
 
 ** These goals are: **
 
-1 - Learn the most up to date tools, techniques and best practices available.
-2 - Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
-3 - Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs.
+1. Learn the most up to date tools, techniques and best practices available.
+2. Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
+3. Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs.
 
 ## Steps to achieve our goals
 
