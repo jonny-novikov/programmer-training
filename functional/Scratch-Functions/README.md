@@ -15,4 +15,4 @@ Tools we'll use for building functions from scratch:
     2 - Save a copy that others can access straight away.
 
 The URL button is pictured here in blue: 
-![Ramda REPL Make Short URL](../../images/Ramda.png)
+![Ramda REPL Make Short URL](../../images/ramda.png)
