@@ -4,17 +4,17 @@ Welcome to the PaperHat Programmer plan where we will teach you how to become a 
 
 ## How to become a world-class programmer
 
-All our training will be designed and customized to your learning, with specific goals in mind. Our learning will be mostly be split into three different categories: 
+All our training will be designed and customized to your learning, with specific goals in mind. Our learning will mostly be split into three different categories: 
 
-- Foundational knowledge - complemented by practical coding skills.
-- Conceptual knowledge - that will give context and create understanding of the patterns that reoccur in programming.
-- Industry Knowledge - Some of the materials we'll learn will be purely for review; we will not dive deeply into them. This will mostly be industry knowledge.
+- **Foundational knowledge** - complemented by practical coding skills.
+- **Conceptual knowledge** - that will give context and create understanding of the patterns that reoccur in programming.
+- **Industry Knowledge** - Some of the materials we'll learn will be purely for review; we will not dive deeply into them. This will mostly be industry knowledge.
 
 ## Programme goals
 
-1. Learn the most up to date tools, techniques and best practices available.
-2. Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
-3. Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs. 
+- Learn the most up to date tools, techniques and best practices available.
+- Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
+- Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs. 
 
 ## Steps to achieve our goals
 
@@ -46,11 +46,11 @@ All our training will be designed and customized to your learning, with specific
 
 What makes a world-class programmer? The ability to *manage complexity*. Before we become amazing at doing that here are a few tips for when learning's a bit tough. Remeber:  
 
-1. You are going to over think absolutely everything. Understanding comes slowly - so don't be too hard on yourself.
-2. It's easier then it seems. It will seem harder and more complicated first, you'll hurt getting up some learning curves but eventually you'll weed through the complexity to the simple parts that create that complicated mess.
-3. Practice makes perfect. Practice creates second nature understanding. Practice, practice, practice!
-4. Break all the things! You'll create a deeper understanding of how ad why things work the way they do. 
-5. Don't over do it. At a certain point pushing yourself means creating bad habits and inefficient learning. Take breaks. Don't work more then 6 hours in one consectutive sitting. 
-6. Go have fun too!  
+- You are going to over think absolutely everything. Understanding comes slowly - so don't be too hard on yourself.
+- It's easier then it seems. It will seem harder and more complicated first, you'll hurt getting up some learning curves but eventually you'll weed through the complexity to the simple parts that create that complicated mess.
+- Practice makes perfect. Practice creates second nature understanding. Practice, practice, practice!
+- Break all the things! You'll create a deeper understanding of how ad why things work the way they do. 
+- Don't over do it. At a certain point pushing yourself means creating bad habits and inefficient learning. Take breaks. Don't work more then 6 hours in one consectutive sitting. 
+- Go have fun too!  
 
 You are not stupid. You can do this. You're already amazing. Go be awesome you!
