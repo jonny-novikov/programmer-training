@@ -1,6 +1,6 @@
 # PaperHat Programmer Plan
 
-Welcome to the PaperHat Programmer plan where we will teach you how to become a world-class programmer! How will we do this? Read on to find out how...
+Welcome to the PaperHat Programmer plan where we will teach you how to become a world-class programmer! This is a working document / repo. It will change as we work on each goal. If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
 
 ## How to become a world-class programmer
 
@@ -36,11 +36,6 @@ All our training will be designed and customized to your learning, with specific
 4. **Git / Work flow:** What is work flow? What are the best practices for using git?
 5. **Hacking the interview game:** Practice being able to answer the most typical technical interview questions.  
 
-## This is a working document / repo
-
-- This is a working document / repo which means it will change as we work on each goal.
-- We will add more resources as we need or find them.
-- If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
 
 ## What makes a world-class programmer? 
 
