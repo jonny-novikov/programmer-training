@@ -1,6 +1,8 @@
 # PaperHat Programmer Program
 
-Welcome to the PaperHat Programmer program where we will teach you how to become a world-class programmer! This is a working document / repo. It will change as we work on each goal. If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
+Welcome to the PaperHat Programmer program where we will teach you how to become a world-class programmer! 
+
+This is a working document / repo. It will change as we work on each goal. If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
 
 ## How to become a world-class programmer
 
