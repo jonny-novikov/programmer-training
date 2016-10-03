@@ -5,9 +5,10 @@ Welcome to the PaperHat Programmer plan where we will teach you how to become a 
 ## How to become a world-class programmer
 
 All our training will be designed and customized to your learning, with specific goals in mind. Our learning will be mostly be split into three different categories: 
-    - Foundational knowledge - complemented by practical coding skills.
-    - Conceptual knowledge - that will give context and create understanding of the patterns that reoccur in programming.
-    - Industry Knowledge - Some of the materials we'll learn will be purely for review; we will not dive deeply into them. This will mostly be industry knowledge.
+
+- Foundational knowledge - complemented by practical coding skills.
+- Conceptual knowledge - that will give context and create understanding of the patterns that reoccur in programming.
+- Industry Knowledge - Some of the materials we'll learn will be purely for review; we will not dive deeply into them. This will mostly be industry knowledge.
 
 ## Programme goals
 
