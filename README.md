@@ -13,16 +13,8 @@ All our training will be designed and customized to your learning, with specific
 ## Programme goals
 
 - **Use the right tools:** Learn the most up to date tools, techniques and best practices available.
-- **Have the right foundation:** Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
+- **Build the right foundation:** Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
 - **Be the most affective:** Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs. 
-
-## Steps to achieve our goals
-
-1. **Review:** Begin a thorough review, discovering where the holes and weaknesses are your knowledge.
-2. **Foundation building:** Work on building your conceptual foundations while practicing using the most up to date JavaScript methods available. 
-3. **Portfolio building:** Build up your portfolio with real world examples: During this time - if you can find a small contract to do, you will be able to practice, get real world experience and earn extra income.
-4. **Git / Work flow:** What is work flow? What are the best practices for using git?
-5. **Hacking the interview game:** Practice being able to answer the most typical technical interview questions.  
 
 ## The areas we will cover
 
@@ -36,6 +28,14 @@ All our training will be designed and customized to your learning, with specific
 - [Tools](./tools/)
 - [Work flow & work flow tools](./workflow/)
 
+## Steps to achieve our goals
+
+1. **Review:** Begin a thorough review, discovering where the holes and weaknesses are your knowledge.
+2. **Foundation building:** Work on building your conceptual foundations while practicing using the most up to date JavaScript methods available. 
+3. **Portfolio building:** Build up your portfolio with real world examples: During this time - if you can find a small contract to do, you will be able to practice, get real world experience and earn extra income.
+4. **Git / Work flow:** What is work flow? What are the best practices for using git?
+5. **Hacking the interview game:** Practice being able to answer the most typical technical interview questions.  
+
 ## This is a working document / repo
 
 - This is a working document / repo which means it will change as we work on each goal.
@@ -44,7 +44,7 @@ All our training will be designed and customized to your learning, with specific
 
 ## What makes a world-class programmer? 
 
-What makes a world-class programmer? The ability to *manage complexity*. Before we become amazing at doing that here are a few tips for when learning's a bit tough. Remeber:  
+What makes a world-class programmer? The ability to *manage complexity*. Before we become amazing at doing that, here are a few tips for when learning gets a bit tough. Remeber:  
 
 - You are going to over think absolutely everything. Understanding comes slowly - so don't be too hard on yourself.
 - It's easier then it seems. It will seem harder and more complicated first, you'll hurt getting up some learning curves but eventually you'll weed through the complexity to the simple parts that create that complicated mess.
