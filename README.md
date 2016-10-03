@@ -12,9 +12,9 @@ All our training will be designed and customized to your learning, with specific
 
 ## Programme goals
 
-- Learn the most up to date tools, techniques and best practices available.
-- Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
-- Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs. 
+- **Use the right tools:** Learn the most up to date tools, techniques and best practices available.
+- **Have the right foundation:** Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
+- **Be the most affective:** Create a platform of skills, knowledge and products that will make us the most affective when applying for jobs. 
 
 ## Steps to achieve our goals
 
