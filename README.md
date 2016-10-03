@@ -1,6 +1,6 @@
-# PaperHat Programmer Plan
+# PaperHat Programmer Program
 
-Welcome to the PaperHat Programmer plan where we will teach you how to become a world-class programmer! This is a working document / repo. It will change as we work on each goal. If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
+Welcome to the PaperHat Programmer program where we will teach you how to become a world-class programmer! This is a working document / repo. It will change as we work on each goal. If you find something that fits with our learning add it to your branch and create a pull request to have it added to master. 
 
 ## How to become a world-class programmer
 
@@ -8,9 +8,9 @@ All our training will be designed and customized to your learning, with specific
 
 - **Foundational knowledge** - complemented by practical coding skills.
 - **Conceptual knowledge** - that will give context and create understanding of the patterns that reoccur in programming.
-- **Industry Knowledge** - Some of the materials we'll learn will be purely for review; we will not dive deeply into them. This will mostly be industry knowledge.
+- **Industry knowledge** - Some of the materials we'll learn will be purely for review; we will not dive deeply into them. This will mostly be industry knowledge.
 
-## Programme goals
+## Program goals
 
 - **Use the right tools:** Learn the most up to date tools, techniques and best practices available.
 - **Build the right foundation:** Cement the computer science foundations that will help you to interpret and understand the wider context of programming as well as filling any knowledge gaps that there may be.
