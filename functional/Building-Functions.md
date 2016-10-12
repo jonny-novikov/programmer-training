@@ -1,6 +1,6 @@
 # Thinking through functions
 
-When you first start creating functions it can be really challenging. We know what we want to do but we haven't learnt the skills to be able to think through how. To be able to create function  
+When you first start creating functions it can be really challenging. We know what we want to do but we haven't learnt the skills to be able to think through how to create functions. 
 
 ## Before writing the function
 
@@ -10,7 +10,7 @@ When you first start creating functions it can be really challenging. We know wh
 
 ## Guard Statement
 
-* What is my base case (recuresive functions)?
+* What is my base case (recursive functions)?
 * What is my guard statement?  
 * Why is it stopping our function from recursing?
 * What is being measured to stop the function?

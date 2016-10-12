@@ -16,3 +16,11 @@ Tools we'll use for building functions from scratch:
 
 The URL button is pictured here in blue: 
 ![Ramda REPL Make Short URL](../../images/ramda.png)
+
+map function
+
+12/10/2016
+
+https://goo.gl/BtzTlD version 3 - nearly there, can't get the function to return through the array - recursion
+
+
