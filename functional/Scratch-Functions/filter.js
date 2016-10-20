@@ -63,4 +63,23 @@ const filta = (func, arr) => {
 
 filta(oddOneOut, array)
 
+//filter divisible by 3
+
+const array = [1,2,3,4,5,6,7,8,9]
+const div3 = n => n % 3 === 0
+
+const filt = (func, arr) => {
+	if (isEmpty(arr)) {
+		return []
+	}
+
+	const [x, ...xs] = arr 
+
+	return func(x)
+	?[x, ...filt(func, xs)]
+	:filt(func, xs)
+}
+
+//expected [3,6,9]
+ filt(div3, array)
 
