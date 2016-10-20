@@ -56,3 +56,33 @@ const mapp = (func, arr) => {
 //expected [1,4,9,16,25,36,49,64,81,100]
 
 mapp(square, array)
+
+//tripler function - take values from an array and triples them.
+//returns a new array
+//declare the const to pass into function
+
+const array = [1,2,3,4,5,6,7,8,9,10]
+const tripler = n => n * 3
+
+//build the function
+
+const map1 = (func, arr) => {
+//add a guard statement
+	if(isEmpty(arr)) {
+		return []
+	}
+//create head and tail of the array
+	create [x, ...xs] = arr 
+
+/*return new array by passing head into function and then recursively
+calling the map function and passing the tail into it until guard
+statement is met*/
+
+	return [func(x), ...map1(func, xs)]
+}
+
+//call the function
+
+map1(tripler, array)
+
+// expected [3,6,9,12,15,18,21,24,27,30]
