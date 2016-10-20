@@ -30,5 +30,25 @@ const rejec = (func, arr) => {
 // expected [2,4,6,8,10]
 
 // call the function
-
 rejec(oddNumber, array)
+
+//big number reject function
+
+const array = [1, 12, 5, 23, 55, 6, 4, 3, 18]
+const bigNumber = n => n < 5
+
+const rejec = (func, arr) => {
+  if (isEmpty(arr)) {
+    return []
+  }
+  
+  const [x, ...xs] = arr
+  
+  return func(x)
+  ?rejec(func, xs)
+  :[x, ...rejec(func, xs)]
+}
+
+rejec(bigNumber, array)
+
+//expected [12, 5, 23, 55, 6, 18]
