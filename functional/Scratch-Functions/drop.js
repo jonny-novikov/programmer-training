@@ -26,3 +26,18 @@ decreases by 1 until 0. That is the end of the loop*/
 
 drp(3, array)
 //drp(3, array) expected result [4,5,6]
+
+
+// take first 4 elements from our fruit list
+const fruit = ('banana','apple','pear','orange','grapes','apricot','pineapple','nectarine','mango')
+
+const droop = (num, [x, ...xs]) => {
+	if(num === 0) {
+		return arr 
+	}
+
+return [droop(num-1, xs)]
+
+}
+
+droop(4, fruit)	

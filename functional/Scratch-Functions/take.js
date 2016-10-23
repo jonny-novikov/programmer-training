@@ -38,4 +38,3 @@ const takee = (num, [x, ...xs]) => {
 }
 
 takee (5, array)
-}
