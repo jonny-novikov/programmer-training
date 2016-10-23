@@ -25,3 +25,17 @@ and empty array is returned to signal end of loop*/
 taake (3, array)
 
 // taake(3, array) -> [1,2,3] expected result
+
+const array = ['mike','jo','ximing','anne', 'maya', 'howard','joan', 'eric', 'raphael']
+
+const takee = (num, [x, ...xs]) => {
+	if(num === 0) {
+		return []
+	}
+
+	return [x, ...takee(num-1, xs)]
+
+}
+
+takee (5, array)
+}
