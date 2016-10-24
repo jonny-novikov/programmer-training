@@ -52,3 +52,23 @@ const rejec = (func, arr) => {
 rejec(bigNumber, array)
 
 //expected [12, 5, 23, 55, 6, 18]
+
+
+//Filterable f => (a → Boolean) → f a → f a
+
+const array = [1,2,3,4,5,6,7,8,9,10]
+const isEven = n => n % 2 === 1
+
+const rejeck = (func, arr) => {
+  if (isEmpty(arr)) return []
+  
+  const [x, ...xs] = arr
+  
+  return func(x)
+   ? rejeck(func, xs)
+   : [x, ...rejeck(func, xs)]
+}
+
+// expected [2,4,6,8,10]
+
+rejeck(isEven, array)
