@@ -38,3 +38,21 @@ const takee = (num, [x, ...xs]) => {
 }
 
 takee (5, array)
+
+//take function. Takes a number and returns that number of elements
+//from the start of an array
+////Number → [a] → [a]
+
+const color = ['red','blue','green','black','orange','yellow']
+
+const tak = (num, arr) => {
+	if(num === 0) return []
+
+	const [x, ...xs] = arr 
+
+	return [x, ...tak(num-1, xs)]
+}
+
+//tak(4, color) => ['red','blue','green','black']
+
+tak(4, color)
