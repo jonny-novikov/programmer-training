@@ -7,3 +7,5 @@ const repet = (num, word) => {
 }
 
 repet(5, "hi")
+
+// expected ['hi','hi','hi','hi','hi']
