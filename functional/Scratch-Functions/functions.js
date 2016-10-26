@@ -91,10 +91,10 @@ findd('mango', array)
 
 const array = ['black','red','orange','brown','yellow','green','pink']
 
-const contain = (color, arr) => {
+const contain = (color, [x, ...xs]) => {
 	if (isEmpty(arr)) return false
 
-	const [x, ...xs] = arr 
+	// const [x, ...xs] = arr 
 	
 	return x === color 
 	 ? true 

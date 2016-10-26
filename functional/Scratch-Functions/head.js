@@ -21,3 +21,5 @@ const headd = ([x]) => [x]
 //don't need the tail as only want the head of the array
 
 headd(a)
+
+//expected ['car']

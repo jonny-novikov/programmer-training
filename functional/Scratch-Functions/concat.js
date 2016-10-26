@@ -14,3 +14,11 @@ conkat([1,2,3,4],[5,6,7,8])
 conkat('red','rum')
 
 //expected 'redrum'
+
+//expanded format
+
+const concate = (a,b) => {
+	return typeof(a) = "string"
+	 ? a + b 
+	 : [...a, ...b]
+}
