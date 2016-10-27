@@ -4,8 +4,7 @@ While a lot of this will be actually be review (It won't feel like it looking at
 
 ## Programming Paradigms
 
-- [Imperative:](https://en.wikipedia.org/wiki/Imperative_programming)
-Paradigm of programming that uses explicit commands and statements to define the sequence in which a program should be run. 
+- [Imperative:](https://en.wikipedia.org/wiki/Imperative_programming) Paradigm of programming that uses explicit commands and statements to define the sequence in which a program should be run. 
 - [Declarative:](https://en.wikipedia.org/wiki/Declarative_programming) Paradigm of programming that describes the structure and elements without controlling their flow.
 - [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) (FP): Paradigm of programming that treats computation as evaluation of mathematical functions and avoids changing state and mutability.  
 - [Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP): Paradigm of programming based on the concept of 'objects' which may contain data and procedures known as methods. Can use classes to create objects.
@@ -14,18 +13,18 @@ Paradigm of programming that uses explicit commands and statements to define the
 
 ## Functional concepts
  
-- Immutability 
-- Referential transparencey and the substitution principle
-- Pure functions
-- First class functions
-- Higher order functions
-- Currying and partial application
-- Recursion and tail recursion
-- Memoization
-- Lexical closures
-- Lazy evaluation
-- Garbage collection
-- Decomposition of complex tasks
+- **Immutability:** Unable to be changed.
+- **Referential transparency and the substitution principle:** 
+- **Pure functions:** A pure function is a function where the return value is only determined by its input values, without observable side effects. 
+- **First class functions:** A function can be treated like a variable. For example, it can be stored in a const/let, passed into a function as an argument, you can return a function from a function.
+- **Higher order functions:**
+- **Currying and partial application:**
+- **Recursion and tail recursion:**
+- **Memoization:**
+- **Lexical closures:**
+- **Lazy evaluation:**
+- **Garbage collection:**
+- **Decomposition of complex tasks:**
 
 ## Functional tools
 
