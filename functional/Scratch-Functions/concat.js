@@ -18,7 +18,9 @@ conkat('red','rum')
 //expanded format
 
 const concate = (a,b) => {
-	return typeof(a) = "string"
+	return typeof(a) === "string"
 	 ? a + b 
 	 : [...a, ...b]
 }
+
+concate('hello','there')
