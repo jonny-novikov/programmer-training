@@ -1,12 +1,12 @@
 // find function looks for a value in an array and returns
 // it if it is there, otherwise returns undefined
 
-//(a → Boolean) → [a] → a | undefined
+// (a → Boolean) → [a] → a | undefined
 
-const array = [1,2,3,4,5,6,7,8,9,10]
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const findd = (num, arr) => {
-	if(isEmpty(arr)) return undefined
+	if (isEmpty(arr)) return undefined
 
 	const [x, ...xs] = arr 
 	
@@ -17,4 +17,4 @@ const findd = (num, arr) => {
 
 findd(23, array)
 
-//expect => undefined
+// expect => undefined

@@ -24,7 +24,7 @@ const revers = (a) => {
 }
 
 
-//revers('hello')
-//revers[1,2,3,4]
+// revers('hello')
+// revers[1, 2, 3, 4]
 
 
