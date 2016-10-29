@@ -14,11 +14,34 @@
 - Only name components with the extension JSX; everything else can be JS.
 - Everything other file type should be lower case. 
 
+## Arrays
+
+- Can be in one line
+- As arrays are index based DO NOT put into alphabetical order
+
+```
+const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const array2 = ['hi', 'hello', 'kia ora']
+```
+
+## Objects
+
+- Stack the items and always keep your properties in alphabetical order so they are super easy for anyone to find. 
+
+```
+Car = {
+  Color: 'Black',
+  Make: 'Honda',
+  Transmission: 'Manual',
+  Type: 'Hatch Back'
+}
+```
+
 ## Imports
 
 - Try to put any imports or listed resources into alphabetical lists. 
 - Place module imports at the top of the page and imports from resources you've created blocked together with a line to space them out. 
-- If an import has several things it is importing - space them onto their own lines and put them
+- If an import has several things it is importing - space them onto their own lines and put them. 
 
 ```
 import React, { PropTypes } from 'react'
@@ -34,8 +57,8 @@ import { getUser } from '../../state/selectors'
 
 ## Functions
 
-- If you only have one parameter there is no need to put brackets around it
-- If you are creating a function all on one line - there is on need for curly braces or the word return
+- If you only have one parameter there is no need to put brackets around it.
+- If you are creating a function all on one line - there is on need for curly braces or the word return.
 - If you are dropping the function down onto multiple lines - you will have to add curly braces and the word return at your return point.
 
 ```
@@ -59,7 +82,8 @@ const ExampleCompoOne = ({ signOut }) => {
 }
 ```
 
-- If you are deconstructing more then one item; pass in props then deconstruct inside the function 
+- If you are deconstructing more then one item; pass in props then deconstruct inside the function. 
+- Stack the items and always keep your props in alphabetical order so they are super easy for anyone to find. 
 
 ```
 const ExampleCompoTwo = (props) => {
@@ -69,15 +93,6 @@ const ExampleCompoTwo = (props) => {
     user, 
     username 
   } = props
-```
-
-- Formatting an object
-
-```
-Dashboard.propTypes = {
-  signOut: PropTypes.func,
-  user: PropTypes.object
-}
 ```
 
 - When writing a react component that needs div's
