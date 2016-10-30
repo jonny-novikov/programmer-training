@@ -19,8 +19,8 @@ const revers = (a) => {
 	const [x, ...xs] = a 
 
 	return typeof(a) === 'string'
-	 ? ...revers(a) + x
-	 : [...reverse(a), xs]
+	  ? ...revers(a) + x
+	  : [...reverse(a), xs]
 }
 
 

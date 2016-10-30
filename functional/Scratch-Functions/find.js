@@ -11,8 +11,8 @@ const findd = (num, arr) => {
 	const [x, ...xs] = arr 
 	
 	return x === num 
-	 ? x 
-	 : findd(num, xs)	
+	  ? x 
+	  : findd(num, xs)	
 }
 
 findd(23, array)

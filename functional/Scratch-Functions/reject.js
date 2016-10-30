@@ -70,8 +70,8 @@ const rejeck = (func, arr) => {
   const [x, ...xs] = arr
   
   return func(x)
-   ? rejeck(func, xs)
-   : [x, ...rejeck(func, xs)]
+    ? rejeck(func, xs)
+    : [x, ...rejeck(func, xs)]
 }
 
 // expected [2, 4, 6, 8, 10]

@@ -78,8 +78,8 @@ const filt = (func, arr) => {
 	const [x, ...xs] = arr 
 
 	return func(x)
-	? [x, ...filt(func, xs)]
-	: filt(func, xs)
+	  ? [x, ...filt(func, xs)]
+	  : filt(func, xs)
 }
 
 // expected [3, 6, 9]

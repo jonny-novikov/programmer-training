@@ -11,8 +11,8 @@ const containz = (num, arr) => {
 	const[x, ...xs] = arr 
 
 	return x === num 
-	 ? true 
-	 : containz(num, xs)
+	  ? true 
+	  : containz(num, xs)
 	 	
 }
 
