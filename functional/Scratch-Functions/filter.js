@@ -83,5 +83,23 @@ const filt = (func, arr) => {
 }
 
 // expected [3, 6, 9]
+
  filt(div3, array)
+
+// 30/10 4min 40
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const moreThan5 = n => n > 5
+
+const filter1 = (func, [x, ...xs]) => {
+  if (!x) return []
+
+  return func(x)
+    ? [x, ...filter1(func, xs)]
+    : filter1(func, xs)  
+}
+
+filter1(moreThan5, array)
+
+// expected filter1(moreThan5, array) => [6, 7, 8, 9, 10]
 

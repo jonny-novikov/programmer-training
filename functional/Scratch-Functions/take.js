@@ -61,3 +61,15 @@ const tak = (num, arr) => {
 //tak(4, color) => ['red', 'blue', 'green', 'black']
 
 tak(4, color)
+
+// 30/10 2min45
+
+const names = ['mike', 'jo', 'ximing', 'al', 'rob']
+
+const take1 = (num, [x, ...xs]) => {
+  if (num === 0) return []
+
+  return [x, ...take1(num - 1, xs)]  
+}
+
+take1(3, names) // => ['mike', 'jo', 'ximing']

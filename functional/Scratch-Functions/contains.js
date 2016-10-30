@@ -19,3 +19,17 @@ const containz = (num, arr) => {
 containz(5, array)
 
 // expected true
+
+// 30/10 2min30
+
+const array = [309, 8970, 23, 4, 890, 345]
+
+const contains1 = (num, [x, ...xs]) => {
+  if (!x) return false
+
+  return x === num
+    ? true
+    : contains1(num, xs)
+}
+
+contains1(309, array) // => true

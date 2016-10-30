@@ -33,7 +33,6 @@ drp(3, array)
 
 // drp(3, array) expected result [4, 5, 6]
 
-
 // take first 4 elements from our fruit list
 
 const fruit = ('banana', 'apple', 'pear', 'orange', 'grapes', 'apricot', 'pineapple', 'nectarine', 'mango')
@@ -48,3 +47,17 @@ return [droop(num-1, xs)]
 }
 
 droop(4, fruit)	
+
+// 30/10 13min55
+
+const names = ['mike', 'jo', 'ximing', 'john', 'jos', 'alex', 'nic']
+
+const drop1 = (num, arr) => {
+  if (num === 0) return arr
+
+  const xs = tail(arr)  
+
+  return [...drop1(num - 1, xs)]  
+}
+
+drop1(3, names) // => ['john', 'jos', 'alex', 'nic']

@@ -73,7 +73,7 @@ const tripler = n => n * 3
 
 // build the function
 
-const map1 = (func, arr) => {
+const mapper = (func, arr) => {
 
 // add a guard statement
 
@@ -91,12 +91,28 @@ const map1 = (func, arr) => {
   statement is met
 */
 
-	return [func(x), ...map1(func, xs)]
+	return [func(x), ...mapper(func, xs)]
 }
 
 // call the function
 
-map1(tripler, array)
+mapper(tripler, array)
 
 // expected [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+
+// 30/10 3min30
+
+const array = [1, 2, 3, 4, 5]
+const fourTimes = n => n * 4
+
+const map1 = (func, [x, ...xs]) => {
+  if (!x) return []
+
+  return [func(x), ...map1(func, xs)]
+}
+
+map1(fourTimes, array)
+
+// expected => [4, 8, 12, 16, 20]
+
 

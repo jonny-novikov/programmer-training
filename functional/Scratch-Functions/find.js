@@ -18,3 +18,17 @@ const findd = (num, arr) => {
 findd(23, array)
 
 // expect => undefined
+
+// 30/10 7min45
+
+const array = [309, 8970, 23, 4, 890, 345]
+
+const find1 = (num, [x, ...xs]) => {
+  if (!x) return undefined
+  
+  return x === num
+    ? x
+    : find1(num, xs)
+}
+
+find1(23, array) // => 23

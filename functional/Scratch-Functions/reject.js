@@ -77,3 +77,20 @@ const rejeck = (func, arr) => {
 // expected [2, 4, 6, 8, 10]
 
 rejeck(isEven, array)
+
+// 30/10 4min 55
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const lessThan 5 = n => n < 5
+
+const reject1 = (func, [x, ...xs]) => {
+  if (!x) return []
+
+  return func(x)
+    ? reject1(func, xs)
+    : [x, ...reject(func, xs)] 
+}
+
+reject1(lessThan5, array)
+
+//expected => [6, 7, 8, 9, 10]
