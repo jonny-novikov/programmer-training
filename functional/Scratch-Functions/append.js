@@ -19,3 +19,9 @@ const appen = (a,b) => [...b, a]
 appen('blue', ['red', 'green'])
 
 // expect ['red', 'green', 'blue']
+
+// 31/10 1min35
+
+const append1 = (a,b) => [...b, a]
+
+const (4, [1, 2, 3]) // => [1, 2, 3, 4]
