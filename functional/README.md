@@ -17,14 +17,14 @@ While a lot of this will be actually be review (It won't feel like it looking at
 - **Referential transparency and the substitution principle:** 
 - **Pure functions:** A pure function is a function where the return value is only determined by its input values, without observable side effects. 
 - **First class functions:** A function can be treated like a variable. For example, it can be stored in a const/let, passed into a function as an argument, you can return a function from a function.
-- **Higher order functions:**
-- **Currying and partial application:**
-- **Recursion and tail recursion:**
-- **Memoization:**
-- **Lexical closures:**
-- **Lazy evaluation:**
-- **Garbage collection:**
-- **Decomposition of complex tasks:**
+- **Higher order functions:** a function that does at least one of the following: takes one or more functions as arguments (i.e., procedural parameters), returns a function as its result.
+- **Currying and partial application:** the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument. Currying is related to, but not the same as, partial application. [Comparison article on Medium](https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8#.t6a71zy61) 
+- **Recursion and tail recursion:** A recursive function is a function that calls itself. In a tail recursive function the function will calculate the recursive part last and not use any stake space; hence it is more similar to a loop.
+- **Memoization:** an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+- **Lexical closures:** A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
+- **Lazy evaluation:** , lazy evaluation, or call-by-need is an evaluation strategy which delays the evaluation of an expression until its value is needed (non-strict evaluation) and which also avoids repeated evaluations (sharing).
+- **Garbage collection:** garbage collection (GC) is a form of automatic memory management. The garbage collector, or just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program.
+- **Decomposition of complex tasks:** Decomposition is when we break a problem down into smaller parts to make it easier to tackle. It is also useful re-using code and problem solving complex tasks by breaking them down into more manageable chunks.  
 
 ## Functional tools
 
