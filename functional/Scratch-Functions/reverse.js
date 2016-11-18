@@ -20,7 +20,7 @@ const revers = (a) => {
 
 	return typeof(a) === 'string'
 	  ? ...revers(a) + x
-	  : [...reverse(a), xs]
+	  : [...revers(a), xs]
 }
 
 

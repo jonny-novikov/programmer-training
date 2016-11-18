@@ -25,3 +25,12 @@ appen('blue', ['red', 'green'])
 const append1 = (a,b) => [...b, a]
 
 const (4, [1, 2, 3]) // => [1, 2, 3, 4]
+
+// 18/11 1:19
+
+const append2 = (a, arr) => {
+	return [...arr, a]
+}
+
+append2(5, [1, 2, 3, 4]) // => [1, 2, 3, 4, 5]
+

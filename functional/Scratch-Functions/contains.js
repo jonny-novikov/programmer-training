@@ -32,4 +32,19 @@ const contains1 = (num, [x, ...xs]) => {
     : contains1(num, xs)
 }
 
+
 contains1(309, array) // => true
+
+// 18/11 9:04
+
+const contains3 = (a, arr) => {
+	if(isEmpty(arr)) return false
+
+	const[x, ...xs] = arr 
+	
+	return a === x	
+		? true 
+		: contains3(a, xs)
+}
+
+contains3(10, [1, 2, 3, 4, 5, 6]) // => false

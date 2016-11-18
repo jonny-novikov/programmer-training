@@ -24,3 +24,14 @@ const concate = (a, b) => {
 }
 
 concate('hello', 'there')
+
+// 18/11	2:41
+
+const concat3 = (a, b) => {
+	return typeof(a) === 'string'
+		? a + b 
+		: [...a, ...b]
+}
+
+concat3('fish', 'chips') // => 'fishchips'
+concat3([1, 2, 3], [4, 5, 6]) // => [1, 2, 3, 4, 5, 6]

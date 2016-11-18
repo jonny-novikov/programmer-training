@@ -115,4 +115,11 @@ map1(fourTimes, array)
 
 // expected => [4, 8, 12, 16, 20]
 
+const array = [98, 48, 2, 45, 89, 38]
+const 4times = n => n * 4
 
+const map2 = (func, [x, ...xs]) => x ? [func(x), ...map2(func, xs)] : []
+	
+}
+
+map2(4times, array)
