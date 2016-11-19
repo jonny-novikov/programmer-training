@@ -103,3 +103,18 @@ filter1(moreThan5, array)
 
 // expected filter1(moreThan5, array) => [6, 7, 8, 9, 10]
 
+
+// 18/11 	4:52
+
+const numbers = [23, 45, 34, 56, 67, 46, 79]
+const oddOnes = n => n % 2 === 1
+
+const filter3 = (func, [x, ...xs]) => {
+	if(!x) return []
+
+	return func(x)
+    ? [x, ...filter3(func, xs)]
+    : filter3(func, xs)
+}
+
+filter3(oddOnes, numbers) // => [23, 45, 67, 79]

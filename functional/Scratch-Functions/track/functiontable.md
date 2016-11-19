@@ -14,9 +14,16 @@ build   | Functions 	| time          | comment						|
 31/10	| append1       | 1:35          |        						|	
 31/10   | join1         | 12:50         |confused by Charles' effort    |	
 		| head          |               |        						|	
-		| pair         	|               |        						|	
-		| add          	|               |        						|	
-		| add          	|               |        						|	
-		| add          	|               |        						|	
-		| add          	|               |        						|    	
-
+18/11	| append3       | 1:19          |        						|	
+18/11	| concat3       | 2:41          |        						|	
+18/11	| drop3         | DNF           |tried to drop string     		|	
+18/11	| filter3       | 4:52          |        						|	
+18/11	| find3         | 3:10          |        						|    	
+18/11	| join3			| DNF			|still confused					|
+18/11	| head3			| 2:04			|								|
+19/11	| pair3			| 0:48			|								|
+19/11	| map3			| 3:05 			|								|
+19/11	| reject3		| 4.24 			|								|
+19/11	| reverse3 		| 11.20 		| used the correct guard stmt	|
+19/11	| take3			| 4.31 			| strings and lists				|
+19/11	| drop4			| 14:04			| strings and lists ? xs/tail   |

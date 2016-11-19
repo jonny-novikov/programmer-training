@@ -123,3 +123,16 @@ const map2 = (func, [x, ...xs]) => x ? [func(x), ...map2(func, xs)] : []
 }
 
 map2(4times, array)
+
+//	19/11	3:05
+
+const a = [1, 2, 3, 4, 5]
+const plusFour = n => n + 4
+
+const map3 = (func, a) => {
+	if(!x) return []
+
+	return [func(x), ...map3(func, xs)]
+}
+
+map3(plusFour, a) // => [5, 6, 7, 8, 9]

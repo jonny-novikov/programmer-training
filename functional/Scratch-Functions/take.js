@@ -73,3 +73,15 @@ const take1 = (num, [x, ...xs]) => {
 }
 
 take1(3, names) // => ['mike', 'jo', 'ximing']
+
+// 19/11	4:31
+
+const take3 = (n, [x, ...xs]) => {
+	if (n === 0) return []
+
+	return typeof(x) === 'string'
+		? x + take3(n - 1, xs)
+		: [x, ...take3(n - 1, xs)]
+}
+
+take3(3, 'michael') // => 'mic'

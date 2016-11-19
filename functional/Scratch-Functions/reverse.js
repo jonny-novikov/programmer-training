@@ -44,3 +44,16 @@ const reverse1 = ([x, ...xs]) => {
 reverse1(str) // => 'olleh'
 reverse1(arr) // => [5, 4, 3, 2, 1]
 
+// this one does not work
+
+// 19/11	11:20  success!
+
+const reverse3 = ([x, ...xs]) => {
+	if(!x) return []
+
+	return typeof(x) === 'string'
+		? reverse3(xs) + x 
+		: [...reverse(xs), x]
+}
+
+reverse3('hello') // => 'olleh'

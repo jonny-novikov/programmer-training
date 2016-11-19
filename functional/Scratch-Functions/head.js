@@ -23,3 +23,9 @@ const headd = ([x]) => [x]
 headd(a)
 
 // expected ['car']
+
+// 19/11	2:04
+
+const head3 = ([x, ...xs]) => [x]
+
+head3([1, 2, 3, 4]) // => [1]

@@ -94,3 +94,18 @@ const reject1 = (func, [x, ...xs]) => {
 reject1(lessThan5, array)
 
 //expected => [6, 7, 8, 9, 10]
+
+// 19/11  4:24
+
+const a = [34, 56, 31, 45, 98, 47]
+const isEven = n => n % 2 === 0
+
+const reject3 = (func, [x, ...xs]) => {
+  if(!x) return []
+
+  return func(x)
+    ? reject3(func, xs)
+    : [x, ...reject3(func, xs)]
+}
+
+reject3(isEven, a) // => [31, 45, 47]

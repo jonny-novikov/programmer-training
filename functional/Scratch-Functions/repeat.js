@@ -20,3 +20,9 @@ const repeat1 = (num, a) => {
 
 
 repeat1(5, 'fish') // => ['fish', 'fish', 'fish', 'fish', 'fish',]
+
+// 19/11 2:18
+
+const repeat3 = (n, a) => n ? [a, ...repeat3(n - 1, a)] : []
+
+repeat3(4, 'hello') // => ['hello', 'hello', 'hello', 'hell0']

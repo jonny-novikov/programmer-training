@@ -32,3 +32,15 @@ const find1 = (num, [x, ...xs]) => {
 }
 
 find1(23, array) // => 23
+
+// 18/11	3:10
+
+const find3 = (num, [x, ...xs]) => {
+	if(!x) return undefined
+
+	return x === num 
+		? x
+		: find3(num, xs)
+}
+
+find3(2, [1, 2, 3, 4]) // => 2
