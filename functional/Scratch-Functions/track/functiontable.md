@@ -26,4 +26,5 @@ build   | Functions 	| time          | comment						|
 19/11	| reject3		| 4.24 			|								|
 19/11	| reverse3 		| 11.20 		| used the correct guard stmt	|
 19/11	| take3			| 4.31 			| strings and lists				|
-19/11	| drop4			| 14:04			| strings and lists ? xs/tail   |
+19/11	| drop4			| 14:04			| strings and lists. why return	| 
+		|			    | 				| array in guard statment		|
