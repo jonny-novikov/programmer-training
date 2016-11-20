@@ -35,3 +35,13 @@ const concat3 = (a, b) => {
 
 concat3('fish', 'chips') // => 'fishchips'
 concat3([1, 2, 3], [4, 5, 6]) // => [1, 2, 3, 4, 5, 6]
+
+//	Concat function
+//	Declare the concat function
+//	Takes in 2 parameters
+// 	return written as a ternary statement
+//	checks if the first value is a string - if so, the returns the 2 arguments 
+//	as a concatenated string
+//	if not as string, then it returns the 2 values concatenated in a single array 
+// 	by destructuring them before putting them together.
+

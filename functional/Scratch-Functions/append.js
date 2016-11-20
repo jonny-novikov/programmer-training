@@ -34,3 +34,9 @@ const append2 = (a, arr) => {
 
 append2(5, [1, 2, 3, 4]) // => [1, 2, 3, 4, 5]
 
+//	declare the function append
+//	takes in 2 parameters - what you want to append and the existing array
+// 	returns a destructured array with the value appended to the end of the array
+
+
+
