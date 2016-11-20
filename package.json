@@ -1,0 +1,23 @@
+{
+  "name": "programmer-training",
+  "version": "1.0.0",
+  "description": "Welcome to the PaperHat Programmer program where we will teach you how to become a world-class programmer!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperHat/micheal_d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaperHat/micheal_d/issues"
+  },
+  "homepage": "https://github.com/PaperHat/micheal_d#readme"
+}
