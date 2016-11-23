@@ -1,6 +1,8 @@
 
 # Elle's to do list
 
+## Read Zero 
+
 ## Conceptual
 
 - Empty list / non-empty list
