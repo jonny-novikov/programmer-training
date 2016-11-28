@@ -48,3 +48,24 @@ const contains3 = (a, arr) => {
 }
 
 contains3(10, [1, 2, 3, 4, 5, 6]) // => false
+
+//	contains function
+//	declare the contains function - takes in 2 arguments
+//	write a guard statement - when the function has run through the array
+// 	and the value is not found, then return false
+
+//  28/11 3:30
+
+const contains4 = (a, [x, ...xs]) => {
+  if(!x) returns false
+
+  return x === a 
+    ? true 
+    : contains4(a, xs)
+}
+
+contains4(1, [1, 2, 3, 4]) // => true
+contains4(5, [1, 2, 3, 4]) // => false
+
+
+

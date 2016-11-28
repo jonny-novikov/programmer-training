@@ -45,3 +45,12 @@ concat3([1, 2, 3], [4, 5, 6]) // => [1, 2, 3, 4, 5, 6]
 //	if not as string, then it returns the 2 values concatenated in a single array 
 // 	by destructuring them before putting them together.
 
+
+// 28/11 3:24
+
+const concat4 = (a, b) => typeof(a) === 'string' ? a + b : [...a, ...b]
+
+concat4('hello', 'there') // => 'hellothere'
+concat4([1, 2], [3, 4]) // => [1, 2, 3, 4]
+
+

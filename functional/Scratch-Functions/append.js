@@ -38,5 +38,13 @@ append2(5, [1, 2, 3, 4]) // => [1, 2, 3, 4, 5]
 //	takes in 2 parameters - what you want to append and the existing array
 // 	returns a destructured array with the value appended to the end of the array
 
+// 28/11 1:34
+
+const append4 = (a, b) => [...b, a]
+
+append4(3, [1, 2]) // => [1, 2, 3]
+append4([3], [1, 2]) // => [1, 2, [3]]
+append4(1, []) // => [1]
+
 
 
