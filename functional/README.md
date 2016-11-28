@@ -30,76 +30,78 @@ While a lot of this will be actually be review (It won't feel like it looking at
 
 We'll be using the [Ramda](http://ramdajs.com/0.21.0/index.html) library to practice creating our functions. Ramda, like Lodash, is a collection of functions that have been created to be used in our code and then compiled into vanilla JavaScript. To use Ramda when creating an app we can add the Ramda npm module: To install: 'npm i ramda'. You will then have to import each function you want to use individual into your files.
 
-- [compose](http://ramdajs.com/0.19.1/docs/#compose)
-- [concat](http://ramdajs.com/0.19.1/docs/#concat) 
-- [contains](http://ramdajs.com/0.19.1/docs/#contains) 
-- [curry](http://ramdajs.com/0.19.1/docs/#curry) 
-- [drop](http://ramdajs.com/0.19.1/docs/#drop) 
-- [filter](http://ramdajs.com/0.19.1/docs/#filter) 
-- [find](http://ramdajs.com/0.19.1/docs/#find) 
-- [flatten](http://ramdajs.com/0.19.1/docs/#flatten)
-- [head](http://ramdajs.com/0.19.1/docs/#head) 
-- [lens](http://ramdajs.com/0.19.1/docs/#lens) 
-- [lift](http://ramdajs.com/0.19.1/docs/#lift)
-- [map](http://ramdajs.com/0.19.1/docs/#map) 
-- [memoize](http://ramdajs.com/0.19.1/docs/#memoize) 
-- [merge](http://ramdajs.com/0.19.1/docs/#merge) 
-- [omit](http://ramdajs.com/0.19.1/docs/#omit) 
-- [partial](http://ramdajs.com/0.19.1/docs/#partial) 
-- [pick](http://ramdajs.com/0.19.1/docs/#pick) 
-- [range](http://ramdajs.com/0.19.1/docs/#range) 
-- [reduce](http://ramdajs.com/0.19.1/docs/#reduce) 
-- [remove](http://ramdajs.com/docs/#remove)
-- [repeat](http://ramdajs.com/docs/#repeat)
-- [reverse](http://ramdajs.com/docs/#reverse)
-- [reject](http://ramdajs.com/0.19.1/docs/#reject) 
-- [scan](http://ramdajs.com/0.19.1/docs/#scan) 
-- [sort](http://ramdajs.com/0.19.1/docs/#sort) 
-- [split](http://ramdajs.com/0.19.1/docs/#split) 
-- [tail](http://ramdajs.com/0.19.1/docs/#tail) 
-- [take](http://ramdajs.com/0.19.1/docs/#take) 
-- [tap](http://ramdajs.com/0.19.1/docs/#tap) 
-- [zip](http://ramdajs.com/0.19.1/docs/#zip) 
+28/11/2016 (1 means I have not looked at them yet)
+
+1 - [compose](http://ramdajs.com/0.19.1/docs/#compose)
+8 - [concat](http://ramdajs.com/0.19.1/docs/#concat) 
+8 - [contains](http://ramdajs.com/0.19.1/docs/#contains) 
+1 - [curry](http://ramdajs.com/0.19.1/docs/#curry) 
+4 - [drop](http://ramdajs.com/0.19.1/docs/#drop) 
+9 - [filter](http://ramdajs.com/0.19.1/docs/#filter) 
+7 - [find](http://ramdajs.com/0.19.1/docs/#find) 
+3 - [flatten](http://ramdajs.com/0.19.1/docs/#flatten)
+8 - [head](http://ramdajs.com/0.19.1/docs/#head) 
+1 - [lens](http://ramdajs.com/0.19.1/docs/#lens) 
+1 - [lift](http://ramdajs.com/0.19.1/docs/#lift)
+9 - [map](http://ramdajs.com/0.19.1/docs/#map) 
+1 - [memoize](http://ramdajs.com/0.19.1/docs/#memoize) 
+1 - [merge](http://ramdajs.com/0.19.1/docs/#merge) 
+1 - [omit](http://ramdajs.com/0.19.1/docs/#omit) 
+1 - [partial](http://ramdajs.com/0.19.1/docs/#partial) 
+1 - [pick](http://ramdajs.com/0.19.1/docs/#pick) 
+1 - [range](http://ramdajs.com/0.19.1/docs/#range) 
+1 - [reduce](http://ramdajs.com/0.19.1/docs/#reduce) 
+1 - [remove](http://ramdajs.com/docs/#remove)
+6 - [repeat](http://ramdajs.com/docs/#repeat)
+7 - [reverse](http://ramdajs.com/docs/#reverse)
+1 - [reject](http://ramdajs.com/0.19.1/docs/#reject) 
+1 - [scan](http://ramdajs.com/0.19.1/docs/#scan) 
+1 - [sort](http://ramdajs.com/0.19.1/docs/#sort) 
+1 - [split](http://ramdajs.com/0.19.1/docs/#split) 
+8 - [tail](http://ramdajs.com/0.19.1/docs/#tail) 
+6 - [take](http://ramdajs.com/0.19.1/docs/#take) 
+1 - [tap](http://ramdajs.com/0.19.1/docs/#tap) 
+1 - [zip](http://ramdajs.com/0.19.1/docs/#zip) 
 
 ## JavaScript
 
 There is a great reference on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
-- Variables and scope
-- Variable hoisting
-- var, const, and let
-- Closures
-- Deep freeze
-- Named functions
-- Anonymous functions
-- Fat arrow functions
-- Loops and conditionals
-- The ternary operator
-- [Operator precendence](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
-- Types and dynamic typing
-- Pass by reference/pass by value
-- Infinity, NaN, undefined, and null
-- Parsing and type checking
-- Object
-- Booleans and boolean algebra (AND, OR, etc.)
-- Symbols
-- Math
-- Dates and times (an ugly mess&mdash;use moment.js)
-- Regular expressions
-- JSON
-- Promises (callbacks)
-- Control flow
-- Errors and error handling
-- Generator functions
-- Export and import (modules)
-- The `this` keyword
-- The `new` keyword
-- Unary operators and arithmetic operators
-- Increment and decrement
-- Equality operators
-- Assignment operators
-- Default parameters
-- Rest parameters
-- Spread operator
-- Destructuring
-- Linting [JavaScript](http://eslint.org/) and [JSON](http://jsonlint.com/)
+3 - Variables and scope
+3 - Variable hoisting
+7 - var, const, and let
+2 - Closures
+2 - Deep freeze
+3 - Named functions
+3 - Anonymous functions
+4 - Fat arrow functions
+4 - Loops and conditionals
+6 - The ternary operator
+7 - [Operator precendence](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+2 - Types and dynamic typing
+1 - Pass by reference/pass by value
+2 - Infinity, NaN, undefined, and null
+2 - Parsing and type checking
+4 - Object
+3 - Booleans and boolean algebra (AND, OR, etc.)
+4 - Symbols
+5 - Math
+2 - Dates and times (an ugly mess&mdash;use moment.js)
+2 - Regular expressions
+3 - JSON
+3 - Promises (callbacks)
+2 - Control flow
+1 - Errors and error handling
+2 - Generator functions
+3 - Export and import (modules)
+4 - The `this` keyword
+2 - The `new` keyword
+2 - Unary operators and arithmetic operators
+5 - Increment and decrement
+6 - Equality operators
+2 - Assignment operators
+2 - Default parameters
+5 - Rest parameters
+7 - Spread operator
+6 - Destructuring
+4 - Linting [JavaScript](http://eslint.org/) and [JSON](http://jsonlint.com/)
