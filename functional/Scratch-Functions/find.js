@@ -44,3 +44,16 @@ const find3 = (num, [x, ...xs]) => {
 }
 
 find3(2, [1, 2, 3, 4]) // => 2
+
+// 30/11 4:18
+
+const find5 = (n, [x, ...xs]) => {
+  if (!x) return undefined
+
+  return x === n 
+    ? x 
+    : find5(n, xs)
+}
+
+find5(2, [1, 2, 3, 4, 5]) // => 2
+find5(89, [1, 2, 3, 4, 5]) // => undefined

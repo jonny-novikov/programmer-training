@@ -29,3 +29,10 @@ headd(a)
 const head3 = ([x, ...xs]) => [x]
 
 head3([1, 2, 3, 4]) // => [1]
+
+// 30/11 3:20
+
+const head4 = ([x, ...xs]) => x ? x : undefined
+
+head4(['fi', 'fo', 'fum']) // => 'fi'
+head4([]) // => undefined

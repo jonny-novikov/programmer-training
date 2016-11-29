@@ -118,3 +118,18 @@ const filter3 = (func, [x, ...xs]) => {
 }
 
 filter3(oddOnes, numbers) // => [23, 45, 67, 79]
+
+// 30/11  5:44
+
+const arr = [2, 6, 89, 109, 74, 79]
+const odds = n => n % 2 === 1
+
+const filter4 = (f, [x, ...xs]) => {
+  if (!x) return []
+
+  return f(x)
+    ? [x, ...filter4(f, xs)]
+    : filter(f, xs)
+}
+
+filter4(odds, arr) // => [89, 109, 79]

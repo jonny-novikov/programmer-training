@@ -75,3 +75,21 @@ const drop4 = (n, arr) => {
 }
 
 drop4(3, 'michael') // => 'hael'
+
+
+//  30/11 13:30
+
+const drop5 = (n, a) => {
+  if (n === 0) return a 
+
+  const xs = tail(a)
+
+  return typeof(a) === 'string'
+    ? drop5(n - 1, xs)
+    : [...drop5(n - 1, xs)]
+}
+
+drop5(2, 'michael') // => 'chael'
+drop5(2, [1, 2, 3, 4, 5]) // => [3, 4, 5]
+
+
