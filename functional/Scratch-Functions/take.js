@@ -85,3 +85,15 @@ const take3 = (n, [x, ...xs]) => {
 }
 
 take3(3, 'michael') // => 'mic'
+
+// 30/11  3:20
+
+const take4 = (n, [x, ...xs]) => {
+  if (!x) return []
+
+  return typeof(x) === 'string'
+    ? x + take4(n - 1, xs)
+    : [x, ...take4(n - 1, xs)]
+}
+
+take4(4, [1, 2, 4, 5, 6, 7, 8 ]) // => [1, 2, 4, 5]

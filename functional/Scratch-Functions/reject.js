@@ -109,3 +109,17 @@ const reject3 = (func, [x, ...xs]) => {
 }
 
 reject3(isEven, a) // => [31, 45, 47]
+
+// 30/11  3:31
+
+const odd = n => n % 2 === 1
+
+const reject5 = (f, [x, ...xs]) => {
+  if (!x) return []
+
+  return f(x)
+    ? reject5(f, xs)
+    : [x, ...reject5(f, xs)]
+}
+
+reject5(odd, [23, 90, 58, 47, 89, 92, 4]) // => [90, 58, 92, 4]

@@ -25,4 +25,12 @@ repeat1(5, 'fish') // => ['fish', 'fish', 'fish', 'fish', 'fish',]
 
 const repeat3 = (n, a) => n ? [a, ...repeat3(n - 1, a)] : []
 
-repeat3(4, 'hello') // => ['hello', 'hello', 'hello', 'hell0']
+repeat3(4, 'hello') // => ['hello', 'hello', 'hello', 'hello']
+
+
+// 30/11  4:37
+
+const repeat4 = (n, a) => n ? [a, ...repeat4(n - 1, a)] : []
+
+repeat4(3, 'hello') // => ['hello', 'hello', 'hello']
+

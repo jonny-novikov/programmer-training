@@ -13,3 +13,9 @@ const pair3 = (a, b) => [a, b]
 
 pair3('mike', 'ximing') // => ['mike', 'ximing']
 
+
+// 30/11  1:23
+
+const pair5 = (a, b) => [a, b]
+
+pair5('hello', 'there') // => ['hello', 'there']
