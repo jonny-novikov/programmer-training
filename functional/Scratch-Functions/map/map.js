@@ -136,3 +136,12 @@ const map3 = (func, a) => {
 }
 
 map3(plusFour, a) // => [5, 6, 7, 8, 9]
+
+// 3/12	2:40
+
+const plus2 = n => n + 2
+
+const m = (f, [x, ...xs]) => x ? [f(x), ...m(f, xs)] : []
+
+m(plus2, [1, 2, 3, 4]) //=> [3, 4, 5, 6]
+

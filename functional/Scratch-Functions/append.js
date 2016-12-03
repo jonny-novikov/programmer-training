@@ -46,5 +46,9 @@ append4(3, [1, 2]) // => [1, 2, 3]
 append4([3], [1, 2]) // => [1, 2, [3]]
 append4(1, []) // => [1]
 
+// 3/12   2:37
 
+const append5 = (a, b) => [...b, a]
+
+append5('hello', ['hi', 'ni hao']) //=> ['hi', 'ni hao', 'hello']
 

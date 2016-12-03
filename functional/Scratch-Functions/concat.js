@@ -53,4 +53,10 @@ const concat4 = (a, b) => typeof(a) === 'string' ? a + b : [...a, ...b]
 concat4('hello', 'there') // => 'hellothere'
 concat4([1, 2], [3, 4]) // => [1, 2, 3, 4]
 
+// 3/12 2:19
+
+const concat5 = (a, b) => typeof(a) === 'string' ? a + b : [...a, ...b]
+
+concat5(['orange', 'banana'], ['strawberry', 'mango']) //=> ['orange', 'banana', 'strawberry', 'mango']
+
 

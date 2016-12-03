@@ -68,4 +68,14 @@ contains4(1, [1, 2, 3, 4]) // => true
 contains4(5, [1, 2, 3, 4]) // => false
 
 
+// 3/12 1:56
 
+const contains5 = (a, [x, ...xs]) => {
+  if (!x) return false
+
+  return x === a 
+    ? true 
+    : contains5(a, xs)
+}
+
+contains4('apple', ['apple', 'orange', 'banana', 'strawberry']) //=> true
