@@ -92,4 +92,16 @@ const drop5 = (n, a) => {
 drop5(2, 'michael') // => 'chael'
 drop5(2, [1, 2, 3, 4, 5]) // => [3, 4, 5]
 
+// 4/11 5:20
+
+const drop6 = (n, [x, ...xs]) => {
+  if (n === 1) return xs
+
+  return typeof(xs) === 'string'
+    ? drop6(n - 1, xs)
+    : [...drop6(n -1, xs)]
+}
+
+drop6(5, 'superman') // => 'man'
+
 

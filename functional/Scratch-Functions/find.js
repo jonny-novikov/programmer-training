@@ -57,3 +57,15 @@ const find5 = (n, [x, ...xs]) => {
 
 find5(2, [1, 2, 3, 4, 5]) // => 2
 find5(89, [1, 2, 3, 4, 5]) // => undefined
+
+// 4/12 2:58
+
+const find6 = (a, [x, ...xs]) => {
+  if (!x) return undefined
+
+  return x === a 
+    ? x 
+    : find6(a, xs)
+}
+
+find6('apple', ['orange', 'banana', 'pineapple', 'apple'] // => apple

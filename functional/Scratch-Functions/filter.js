@@ -133,3 +133,17 @@ const filter4 = (f, [x, ...xs]) => {
 }
 
 filter4(odds, arr) // => [89, 109, 79]
+
+//  4/11  3:52
+
+const smaller5 = n => n < 5
+
+const filter5 = (f, [x, ...xs]) => {
+  if (!x) return []
+
+  return f(x)
+    ? [x, ...filter5(f, xs)]
+    : filter5(f, xs)
+}
+
+filter5(smaller5, [3, 2, 1, 89, 79, 24]) // => [3, 2, 1]
