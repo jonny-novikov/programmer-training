@@ -34,3 +34,8 @@ const repeat4 = (n, a) => n ? [a, ...repeat4(n - 1, a)] : []
 
 repeat4(3, 'hello') // => ['hello', 'hello', 'hello']
 
+// 4/12   4:10
+
+const repeat5 = (a, n) => n === 0 ? [] : [a, ...repeat5(a, n - a)]
+
+repeat5('repeat', 3) // => ['repeat', 'repeat', 'repeat']

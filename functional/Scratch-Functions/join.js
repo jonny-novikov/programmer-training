@@ -50,4 +50,14 @@ const join5 = (s, [x, ...xs]) => {
 
 join5('+', 'hello') // => 'h+e+l+l+o'
 
+//  4/12  3:20
+
+const join6 = (s, [x, ...xs]) => {
+  if(isEmpty(xs)) return x 
+
+  return x + s + join6(s, xs)
+}
+
+join6('+', 'join') // => 'j+o+i+n'
+
 

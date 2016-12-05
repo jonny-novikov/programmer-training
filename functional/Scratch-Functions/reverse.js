@@ -69,3 +69,15 @@ const reverse4 = ([x, ...xs]) => {
 }
 
 reverse4([2, 4, 6, 8, 10]) // => [10, 8, 6, 4, 2]
+
+// 4/12		3:25
+
+const reverse5 = ([x, ...xs]) => {
+	if (!x) return []
+
+	return typeof(x) === 'string'
+		? reverse5(xs) + x 
+		: [...reverse5(xs), x]
+}
+
+reverse5('monkey') // => 'yeknom'

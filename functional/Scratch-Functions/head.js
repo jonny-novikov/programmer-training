@@ -36,3 +36,10 @@ const head4 = ([x, ...xs]) => x ? x : undefined
 
 head4(['fi', 'fo', 'fum']) // => 'fi'
 head4([]) // => undefined
+
+// 4/11 2:53
+ 
+const head5 = ([x, ...xs]) => x ? x : undefined
+
+head5('hello') //=> 'h'
+head5([]) // => undefined

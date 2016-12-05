@@ -19,3 +19,9 @@ pair3('mike', 'ximing') // => ['mike', 'ximing']
 const pair5 = (a, b) => [a, b]
 
 pair5('hello', 'there') // => ['hello', 'there']
+
+//  4/12  0:29
+
+const pair6 = (a, b) => [a, b]
+
+pair6('hello', 'mike') // => ['hello', 'mike']

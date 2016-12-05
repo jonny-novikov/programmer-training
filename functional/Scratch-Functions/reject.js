@@ -123,3 +123,17 @@ const reject5 = (f, [x, ...xs]) => {
 }
 
 reject5(odd, [23, 90, 58, 47, 89, 92, 4]) // => [90, 58, 92, 4]
+
+// 4/12   3:30
+
+const large = n => n > 10
+
+const reject6 = (f, [x, ...xs]) => {
+  if (!x) return []
+
+  return f(x)
+    ? reject6(f, xs)
+    : [x, ...reject6(f, xs)]
+}
+
+reject6(large, [34, 1, 5, 89, 90]) // => [1, 5]
