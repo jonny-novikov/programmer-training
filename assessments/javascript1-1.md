@@ -115,6 +115,13 @@ Create a recursive function that can:
 - [ ] Has a store of naughty words to check against 
 - [ ] Will return a an array with all of the naughty words removed 
 
+  pseudocode for swearbot
+
+  function takes a string, list of naughty words
+  converts the string into a list
+  compares that list with the list of naughty words using filter
+  returns list with the naughty words removed
+
 
 ### Build a palindrome checker
 
@@ -132,3 +139,13 @@ Create a function that:
 - [ ] Checks the string to see if it's a palindrome
 - [ ] Returns true or false
 - [ ] Should be able to take all of the palindromes above, exactly how they have been written, and return true for all of them
+
+
+  pseudocode for palindrome checker
+
+  function takes in a string
+  reverses the string (taking out the spaces, commas etc)
+  returns it as a new variable
+  compares the new variable to the original string
+  if it is the same, return it as true
+  if not, return as false
