@@ -49,11 +49,42 @@
 
 - [X] Explain the difference between mutable and immutable. Which is better and why?
 
+  Mutability is more commonly seen in object oriented programming means that the state of object can change with time after it has been created.
 
-- [ ] What situation would you build a function mutably? 
-- [ ] Explain SPREAD and REST operators.
+  Immutability is the opposite. Essentially once an object or something has been defined or created, it never changes.
+
+  Immutability is better because the results are more predictable and if errors are made, then they can be traced or fixed without affecting other parts of the program.
+
+
+- [X] What situation would you build a function mutably?
+
+  Don't know ??? 
+
+
+- [X] Explain SPREAD and REST operators.
+
+  The spread operator (...) is used to flatten an array so it appears as one rather than an array containing multiple arrays. 
+
+
 - [ ] Explain var, let and const and best practice with using each.
+
+  var is used to declare a variable. With var they can be changed or altered so it is important to consider where abouts the are declared to determine their scope. If they are declared inside a function, then they are only available within that function, called function scope. If they are declared outside of a function, then they are available to be used everywhere in the code, called global scope.
+
+  const and let are used in ES6 to declare variables. They differ from var in that they are both block scoped. This means they are only available in the block in which they were declared.
+
+  let variables can change where as const variables are fixed.
+
 - [ ] Name 3 different ways that you could create a guard statement and why they would stop your function.
+
+  guard statments let the function know when to stop the loop / recursion in a function.
+
+  ways to create guard statements
+
+  1. destructure the array splitting it into a head and tail. When the function has looped through and there is no longer a head, return an empty array.
+
+  2. use a counter - once the counter reaches 0 (or a specific number) return an empty array.
+
+  3.
 
 
 ## Exercise Practice
